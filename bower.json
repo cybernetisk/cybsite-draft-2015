@@ -1,0 +1,20 @@
+{
+  "name": "cybsite",
+  "version": "0.0.0",
+  "private": true,
+  "authors": [
+    "steffennilsen <steffennilsen@gmail.com>"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.4",
+    "plato": "~1.4.0"
+  }
+}

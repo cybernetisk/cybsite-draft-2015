@@ -1,0 +1,32 @@
+{
+  "src": "./src/",
+  "api": "/api",
+  "data": "/../../data/",
+  "html": "./src/**/*.html",
+  "vendorjs": [
+    "./bower_components/jquery/dist/jquery.min.js",
+    "./bower_components/bootstrap/dist/js/jquery.min.js"
+  ],
+  "vendorcss": [
+    "./bower_components/bootstrap/dist/css/bootstrap.min.css",
+    "./bower_components/font-awesome/css/font-awesome.min.css",
+    "./bower_components/toastr/toastr.css"
+  ],
+  "css": [
+    "./src/client/content/customtheme.css",
+    "./src/client/content/styles.css"
+  ],
+  "js": [
+    "./src/client/app/**/*module*.js",
+    "./src/client/app/**/*.js",
+    "!./src/client/app/**/*-spaghetti.js"
+  ],
+  "nodejs": [
+    "./src/server/**/*.js"
+  ],
+  "images": [
+    "./src/client/content/images/**/*"
+  ],
+  "report": "./report/",
+  "build": "./build/"
+}
