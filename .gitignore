@@ -741,6 +741,3 @@ Mercury.modules
 ### Sass ###
 .sass-cache
 *.css.map
-
-### Plato ###
-report/

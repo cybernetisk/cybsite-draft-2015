@@ -1,0 +1,9 @@
+$carousel-height: 300px !important;
+
+.carousel {
+    margin-bottom: 60px;
+
+    img {
+        height: $carousel-height;
+    }
+}

@@ -1,0 +1,23 @@
+.carousel {
+  margin-bottom: 60px; }
+  .carousel img {
+    height: 300px !important; }
+
+.header {
+  background-color: #000000;
+  color: #FFFFFF; }
+  .header .btn-group {
+    margin-top: 25px; }
+    .header .btn-group .btn {
+      background-color: #FFB619; }
+    .header .btn-group .btn:hover {
+      background-color: #FFAE00; }
+
+.carousel-container {
+  padding-top: 10px;
+  background-color: #000000; }
+
+.marketing {
+  background-color: #D3E3FF; }
+
+/*# sourceMappingURL=data:application/json;base64,ewoJInZlcnNpb24iOiAzLAoJImZpbGUiOiAic3R5bGVzLmNzcyIsCgkic291cmNlcyI6IFsKCQkic2Fzcy9zdHlsZXMuc2NzcyIsCgkJInNhc3MvY29sb3JzLnNjc3MiLAoJCSJzYXNzL2Nhcm91c2VsLnNjc3MiLAoJCSJzYXNzL3NjYWZmb2xkaW5nLnNjc3MiCgldLAoJInNvdXJjZXNDb250ZW50IjogW10sCgkibWFwcGluZ3MiOiAiQUVFQTtFQUNJLEFBQWU7RUFFbkIsQUFBVTtJQUNGLEFBTlU7O0FDQWxCO0VBQ0ksQUZEUztFRUVULEFGRGU7RUVHbkIsQUFBUTtJQUNBLEFBQVk7SUFFcEIsQUFBUSxBQUFXO01BQ1AsQUZORztJRVNmLEFBQVEsQUFBVyxBQUFJO01BQ1gsQUZUSTs7QUVjaEI7RUFDSSxBQUFhO0VBQ2IsQUZuQlM7O0FFc0JiO0VBQ0ksQUZsQlkiLAoJIm5hbWVzIjogW10KfQ== */

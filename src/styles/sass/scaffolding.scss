@@ -1,0 +1,25 @@
+.header {
+    background-color: $base-color;
+    color: $background-color;
+
+    .btn-group {
+        margin-top: 25px;
+
+        .btn {
+            background-color: $accent-color;
+        }
+
+        .btn:hover {
+            background-color: $accent2-color;
+        }
+    }
+}
+
+.carousel-container {
+    padding-top: 10px;
+    background-color: $base-color;
+}
+
+.marketing {
+    background-color: $shadow2-color;
+}
