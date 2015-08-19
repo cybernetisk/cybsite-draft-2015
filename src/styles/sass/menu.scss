@@ -1,0 +1,23 @@
+.slicknav_menu {
+	display:none;
+}
+
+@media screen and (max-width: 40em) {
+	#menu {
+		display: none;
+	}
+
+	#menu-large {
+		display: none;
+	}
+
+	.slicknav_menu {
+		display: block;
+	}
+}
+
+#menu-anchor {
+	.slicknav_menu {
+		background-color: $base-color;
+	}
+}

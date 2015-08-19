@@ -1,18 +1,23 @@
+$line-width: 2px;
+
+body {
+    background-color: $base-color;
+}
+
 .header {
     background-color: $base-color;
     color: $background-color;
+    border-bottom-color: $accent-color;
+    border-bottom-width: $line-width;
+    border-bottom-style: solid;
 
     .btn-group {
         margin-top: 25px;
-
-        .btn {
-            background-color: $accent-color;
-        }
-
-        .btn:hover {
-            background-color: $accent2-color;
-        }
     }
+}
+
+.content {
+    padding-bottom: 60px;
 }
 
 .carousel-container {
@@ -20,6 +25,26 @@
     background-color: $base-color;
 }
 
-.marketing {
-    background-color: $shadow2-color;
+.content-rows {
+    .content-row {
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+
+    .content-row:nth-child(odd) {
+        background-color: $shadow2-color;
+    }
+
+    .content-row:nth-child(even) {
+        background-color: $shadow-color;
+    }
+}
+
+.footer {
+    z-index: -1;
+    background-color: $base-color;
+    height: 60px;
+    border-top-color: $accent-color;
+    border-top-width: $line-width;
+    border-top-style: solid;
 }

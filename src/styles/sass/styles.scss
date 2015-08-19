@@ -2,4 +2,23 @@
 
 @import "colors";
 @import "carousel";
+@import "menu";
 @import "scaffolding";
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.btn.btn-cyb {
+    background-color: $accent2-color;
+    color: $background-color;
+}
+
+.btn.btn-cyb:hover {
+    background-color: $accent-color;
+    color: $base-color;
+}

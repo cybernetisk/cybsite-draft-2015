@@ -4,10 +4,11 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
-    <title>Cyb</title>
+    <title>Cybernetisk Selskap</title>
 
     <!-- inject-vendor:css -->
     <link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../bower_components/slicknav/dist/slicknav.min.css" />
     <!-- endinject -->
 
     <!-- inject:css -->
@@ -17,19 +18,28 @@
 <body>
     <div class="header">
         <div class="container">
-            <div class="col-md-4">
+            <div class="float-left">
                 <h1>Cybernetisk Selskap</h1>
             </div>
-            <div class="col-md-6">
-                <div class="btn-group" role="group">
-                    <button type="button" class="btn">Bli Frivilig</button>
-                    <button type="button" class="btn">Om Oss</button>
-                    <button type="button" class="btn">Medlemsinfo</button>
-                    <button type="button" class="btn">Events</button>
-                    <button type="button" class="btn">Utlån</button>
-                    <button type="button" class="btn">Kontakt oss</button>
-                </div>
+            <!-- <div id="menu">
+                <ul>
+                    <li><a href="#">Bli Frivilig</a></li>
+                    <li><a href="#">Om Oss</a></li>
+                    <li><a href="#">Medlemsinfo</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Utlån</a></li>
+                    <li><a href="#">Kontakt oss</a></li>
+                </ul>
+            </div> -->
+            <div id="menu" class="btn-group float-left" role="group">
+                <button type="button" class="btn btn-cyb">Bli Frivilig</button>
+                <button type="button" class="btn btn-cyb">Om Oss</button>
+                <button type="button" class="btn btn-cyb">Medlemsinfo</button>
+                <button type="button" class="btn btn-cyb">Events</button>
+                <button type="button" class="btn btn-cyb">Utlån</button>
+                <button type="button" class="btn btn-cyb">Kontakt oss</button>
             </div>
+            <div id="menu-anchor"></div>
         </div>
     </div>
     <div class="content">
@@ -79,13 +89,51 @@
                 </div>
             </div>
         </div>
-        <div class="marketing">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <h2>Bli Frivilig</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                        <div align="center"><button type="button" class="btn">Bli Med</button></div>
+        <div class="content-rows">
+            <div class="content-row">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-4 col-md-offset-1">
+                            <h2 class="text-center">Bli Frivilig</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                            <div align="center"><button type="button" class="btn btn-cyb">Bli Med</button></div>
+                        </div>
+                        <div class="col-md-4 col-md-offset-2">
+                            <h2 class="text-center">Om oss</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                            <div align="center"><button type="button" class="btn btn-cyb">Les Mer</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-row">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-4 col-md-offset-1">
+                            <h2 class="text-center">Medlemsinfo</h2>
+                            <div style="width: 100%; height: 200px; background-color: darkcyan; margin: 10px 0px;"></div>
+                            <div align="center"><button type="button" class="btn btn-cyb">Bli Med</button></div>
+                        </div>
+                        <div class="col-md-4 col-md-offset-2">
+                            <h2 class="text-center">Events</h2>
+                            <div style="width: 100%; height: 200px; background-color: darkcyan; margin: 10px 0px;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-row">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-4 col-md-offset-1">
+                            <h2 class="text-center">Utlån</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                            <div align="center"><button type="button" class="btn btn-cyb">Gå til utleieskjema</button></div>
+                        </div>
+                        <div class="col-md-4 col-md-offset-2">
+                            <h2 class="text-center">Kontakt Oss</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                            <div align="center"><button type="button" class="btn btn-cyb">Bli Med</button></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -103,6 +151,7 @@
     <!-- inject-vendor:js -->
     <script src="../bower_components/jquery/dist/jquery.min.js"></script>
     <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../bower_components/slicknav/dist/jquery.slicknav.min.js"></script>
     <!-- endinject -->
 
 
